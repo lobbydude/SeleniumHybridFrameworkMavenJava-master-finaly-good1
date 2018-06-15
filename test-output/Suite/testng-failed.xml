@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Regression(failed)">
+    <classes>
+      <class name="executionEngine.RunTestNG">
+        <methods>
+          <include name="Testcase1"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- executionEngine.RunTestNG -->
+      <class name="executionEngine.RunTestNG1">
+        <methods>
+          <include name="Testcase1"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- executionEngine.RunTestNG1 -->
+    </classes>
+  </test> <!-- Regression(failed) -->
+</suite> <!-- Failed suite [Suite] -->
